@@ -75,14 +75,6 @@ python -m pytest -q
   An earlier version tried StatsBomb Open Data for this; its open sample does not cover current players, so it never contributed
   and was removed to keep the system simpler and honest.
 
-## With one more month
-
-1. **Event data** from a licensed provider, to score playing style and answer requests like "ball-playing".
-2. **Fee and wage model**, so the budget constraint reflects real cost, not market value.
-3. **Objectives set with a club**, instead of one proxy for every request; learn weights per club philosophy.
-4. **More evaluation**: more windows, more leagues, and a check that confidence labels are calibrated (high-confidence picks do better).
-5. **Always-on proactivity** (a scheduled service plus injury and transfer feeds as triggers) and a small web UI for the approval queue.
-
 ## Repo map
 
 `agent.py` ask/watch loop, `llm.py` the two LLM jobs, `spec.py` the problem, `data.py` download/load, `features.py`, `scoring.py`,
