@@ -5,7 +5,6 @@ problem, scores every candidate, picks the best affordable option with an intege
 stable that pick is, and tests the whole method on past transfer windows.
 The language model only translates the request and writes the explanation. **The decision never comes from the LLM.**
 
-> Development note: built with AI assistance (Claude). I reviewed the design, ran every command and test, and can explain each part.
 
 ## How it works
 
